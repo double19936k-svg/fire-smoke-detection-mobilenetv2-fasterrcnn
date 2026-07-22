@@ -112,3 +112,11 @@ python src/plot.py
 ## Training Curve
 
 ![Training Curve](results/training_curve.png)
+
+## Project Guide
+
+A detailed Chinese beginner-oriented guide covering the complete workflow,
+common errors, cloud training, evaluation and GitHub delivery:
+
+- [作业指导手册 PDF](docs/MobileNetV2_FasterRCNN_作业指导手册.pdf)
+- [项目复盘 PPT](docs/slides/火焰烟雾检测项目复盘版.pptx)
