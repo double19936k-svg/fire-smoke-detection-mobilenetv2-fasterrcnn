@@ -113,10 +113,32 @@ python src/plot.py
 
 ![Training Curve](results/training_curve.png)
 
-## Project Guide
+- ## 作业指导手册与项目复盘
 
-A detailed Chinese beginner-oriented guide covering the complete workflow,
-common errors, cloud training, evaluation and GitHub delivery:
+本项目提供了一份面向初学者的完整作业指导手册，内容基于本次
+MobileNetV2 + Faster R-CNN 火焰与烟雾检测项目的实际实施过程整理。
 
-- [作业指导手册 PDF](docs/MobileNetV2_FasterRCNN_作业指导手册.pdf)
-- [项目复盘 PPT](docs/slides/火焰烟雾检测项目复盘版.pptx)
+手册涵盖：
+
+- 目标检测任务理解
+- YOLO 标签格式与数据集检查
+- PyTorch、CUDA 和 GPU 环境配置
+- MobileNetV2 + Faster R-CNN 模型结构
+- 本地与云服务器训练流程
+- mAP、AP 和推理速度评估
+- 常见报错、原因与排查方法
+- GitHub 项目整理与交付流程
+
+### 文档下载
+
+- [作业指导手册 PDF](docs/作业指导手册_MobileNetV2_FasterRCNN火焰烟雾检测.pdf)
+- [作业指导手册 Word 版](docs/作业指导手册_MobileNetV2_FasterRCNN火焰烟雾检测.docx)
+- [项目复盘 PPT](docs/slides/作业指导手册_火焰烟雾检测项目复盘版.pptx)
+
+> 说明：本手册基于一次真实课程项目的实施与排错过程整理，
+> 重点是工程流程、常见问题和初学者排查方法，不属于
+> PyTorch、Torchvision 或 Faster R-CNN 的官方技术文档。
+>
+> 本项目在学习与实施过程中使用了 ChatGPT 和 Codex
+> 辅助进行代码解释、错误排查、脚本整理及文档生成。
+> 最终实验指标以 `results/evaluation_results.json` 为准。
