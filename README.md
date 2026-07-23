@@ -3,6 +3,7 @@
 ## 项目简介
 
 本项目使用 MobileNetV2 作为骨干网络，结合 Faster R-CNN 实现火焰（fire）和烟雾（smoke）目标检测。
+Prototype implementation for fire/smoke detection; current team solution migrated to YOLOv11-based real-time detection pipeline.
 
 ## 技术栈
 
